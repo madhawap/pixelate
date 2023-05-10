@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='pixelmagic',
-    version='1.0.0',
+    version='1.0.1',
     author='madhawap',
     author_email='madhawa.perera@anu.edu.au',
     description='A package for creating pixelated GIFs from images',
@@ -19,6 +19,7 @@ setup(
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.9',
+        'Programming Language :: Python :: 3.10',
     ],
     keywords='pixelated gif imageio pillow',
     install_requires=[
