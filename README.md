@@ -1,13 +1,13 @@
-# pixelator
+# pixelmagic
 
-`pixelator` is a Python package for creating pixelated GIFs from image files.
+`pixelmagic` is a Python package for creating pixelated GIFs from image files.
 
 ## Installation
 
 To install the package, run the following command:
 
 ```markdown
-pip install pixelator
+pip install pixelmagic
 ```
 Check if required packages are installed and install them if necessary:
 
@@ -35,10 +35,10 @@ except ImportError:
 ```
 
 ## Usage
-Here's an example of how to create a pixelated GIF using `pixelator`:
+Here's an example of how to create a pixelated GIF using `pixelmagic`:
 
 ```python
-from pixelator import create_pixelated_gif
+from pixelmagic import create_pixelated_gif
 
 image_path = 'path/to/image.jpg'
 duration = 0.1
@@ -73,7 +73,7 @@ def create_pixelated_gif(image_path: str, duration: float, loops: int, start_pix
 
 ## License
 
-`pixelator` is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+`pixelmagic` is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Error Handling
 
