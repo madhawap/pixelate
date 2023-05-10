@@ -38,14 +38,14 @@ except ImportError:
 Here's an example of how to create a pixelated GIF using `pixelmagic`:
 
 ```python
-from pixelmagic import create_pixelated_gif
+from pixelmagic.pixelmagic import create_pixelated_gif
 
 image_path = 'path/to/image.jpg'
 duration = 0.1
 loops = 0
 start_pixel_size = 20
 output_path = 'path/to/output.gif'
-reverse = False # Optional
+reverse = False  # Optional
 
 create_pixelated_gif(image_path, duration, loops, start_pixel_size, output_path, reverse)
 ```

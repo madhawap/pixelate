@@ -1,37 +1,37 @@
-package:
-  name: pixelmagic
-  version: 1.0.0
-
-source:
-  url: https://github.com/madhawap/pixelmagic/archive/1.0.0.tar.gz
-  sha256: 'faaa95217f34227c8ca54cf2b6f0da6f7781f0218b7ea0eebc4ddc5f91a7ab74'
-
-build:
-  number: 0
-  script: python -m pip install . --no-deps --ignore-installed --no-cache-dir
-
+#package:
+#  name: pixelmagic
+#  version: 1.0.0
+#
+#source:
+#  url: https://github.com/madhawap/pixelmagic/archive/1.0.0.tar.gz
+#  sha256: 'faaa95217f34227c8ca54cf2b6f0da6f7781f0218b7ea0eebc4ddc5f91a7ab74'
+#
 #build:
 #  number: 0
-#  script: python setup.py install
-
-requirements:
-  build:
-    - python
-    - pip
-    - setuptools
-  run:
-    - python
-    - numpy
-    - pillow
-
-about:
-  home: https://github.com/madhawapy/pixelmagic
-  license: MIT
-  summary: A Python package for creating pixelated GIFs.
-  description: >
-    Pixelmagic is a Python package that provides a function for creating pixelated GIFs from image files.
-
-#recipe:
-#  repo: https://github.com/conda-forge/pixelmagic-feedstock.git
-#  branch: master
-#  commit: <insert the latest commit hash of the feedstock repository>
+#  script: python -m pip install . --no-deps --ignore-installed --no-cache-dir
+#
+##build:
+##  number: 0
+##  script: python setup.py install
+#
+#requirements:
+#  build:
+#    - python
+#    - pip
+#    - setuptools
+#  run:
+#    - python
+#    - numpy
+#    - pillow
+#
+#about:
+#  home: https://github.com/madhawapy/pixelmagic
+#  license: MIT
+#  summary: A Python package for creating pixelated GIFs.
+#  description: >
+#    Pixelmagic is a Python package that provides a function for creating pixelated GIFs from image files.
+#
+##recipe:
+##  repo: https://github.com/conda-forge/pixelmagic-feedstock.git
+##  branch: master
+##  commit: <insert the latest commit hash of the feedstock repository>
