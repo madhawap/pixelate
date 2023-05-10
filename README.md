@@ -2,6 +2,8 @@
 
 `pixelmagic` is a Python package for creating pixelated GIFs from image files.
 
+<img src="https://github.com/madhawap/pixelmagic/assets/12988860/0e7caa91-1d51-45f8-bc96-9f8449e57025" width="300"/>
+
 ## Installation
 
 To install the package, run the following command:
