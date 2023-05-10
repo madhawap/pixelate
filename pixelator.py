@@ -20,13 +20,14 @@ except ImportError:
     from PIL import Image
 
 
-def create_pixelated_gif(image_path: str, duration: float, loops: int, output_path: str = '') -> str:
+def create_pixelated_gif(image_path: str, duration: float, loops: int, start_pixel_size: int = 20, output_path: str = '') -> str:
     """Create a pixelated GIF from an image file and save it to disk.
 
     Args:
         image_path (str): The path to the image file.
         duration (float): The duration of each frame in the GIF.
         loops (int): The number of times the GIF should loop. Use 0 for infinite loops.
+        start_pixel_size (int): The starting pixel size of the pixelation effect. Default is 20.
         output_path (str): The path to the output file. If not specified, the GIF will be saved to the root directory.
 
     Returns:
@@ -43,8 +44,7 @@ def create_pixelated_gif(image_path: str, duration: float, loops: int, output_pa
     except FileNotFoundError:
         raise FileNotFoundError(f"Error: file '{image_path}' not found.")
 
-    # Define the starting and ending pixel sizes of the pixelation effect
-    start_pixel_size = 20
+    # Define the ending pixel size of the pixelation effect
     end_pixel_size = 0
 
     if start_pixel_size <= end_pixel_size:
